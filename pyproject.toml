@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "app_global"
+version = "1.0.0"
+description = "Sharing global variables between modules in a Python application"
+license = "MIT"
+authors = ["Timothy C. Quinn"]
+readme = "README.md"
+homepage = "tbd"
+repository = "tbd"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'Operating System :: POSIX :: Linux',
+    'Operating System :: POSIX :: BSD',
+    'Operating System :: POSIX :: SunOS/Solaris',
+    'Operating System :: MacOS :: MacOS X',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Software Development',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
